@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat&display=swap");
+* {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #13131F;
+  color: #FEFBFB;
+}
+
+.menu-navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  font-size: 1.3rem;
+}
+.menu-navBar ul {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-navBar .login {
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: solid 1px #8257E6;
+  width: 10rem;
+}
+
+main .container-firts {
+  padding: 4rem;
+}
+main .container-firts h2 {
+  margin-bottom: 1.3rem;
+  font-size: 3rem;
+}
+main .container-firts .container-pub {
+  display: inline-flex;
+  height: 20rem;
+  gap: 1rem;
+}
+main .container-firts .container-pub .section-img-legendada {
+  width: 70%;
+  height: 16rem;
+  position: relative;
+  padding: 0.6rem;
+}
+main .container-firts .container-pub .section-img-legendada .legenda {
+  height: 90%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  background: transparent;
+}
+main .container-firts .container-pub .section-img-legendada .post-img {
+  height: 18.3rem;
+  width: 100%;
+  opacity: 30%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .container-firts .container-pub2 {
+  display: block;
+  height: 20rem;
+  width: 25rem;
+}
+main .container-firts .container-pub2 .section-img {
+  height: 8rem;
+  position: relative;
+  padding: 0.6rem;
+  gap: 1rem;
+}
+main .container-firts .container-pub2 .legenda-grid {
+  max-width: 35ch;
+  padding: 1rem;
+  height: 90%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background: transparent;
+}
+main .container-firts .container-pub2 .img {
+  height: 100%;
+  width: 100%;
+  opacity: 35%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .main {
+  display: flex;
+  width: 90%;
+  padding: 4rem;
+}
+main .main .container {
+  width: 70%;
+  position: relative;
+  padding: 0.6rem;
+  height: 40rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+main .main .container .posts {
+  width: 95%;
+  display: flex;
+  box-sizing: border-box;
+  gap: 1rem;
+  margin: 2rem 2rem 2rem 1rem;
+}
+main .main .container .posts .img-post {
+  width: 18rem;
+  height: 10rem;
+}
+main .main .container .posts .conteudo-post {
+  width: 80%;
+}
+main .main .container .posts .title-post {
+  width: 100%;
+}
+main .main .container .posts .paragrafo {
+  font-size: 10px;
+  margin-bottom: 1rem;
+}
+main .main .container .posts .btn-post {
+  background-color: #8257E6;
+  border-radius: 0.3rem;
+  border: solid 1px #8257E6;
+  padding: 0.2rem;
+  width: 8rem;
+  height: 2rem;
+}
+main .main .container-secundario {
+  height: 34rem;
+}
+main .main .container-secundario .post-right {
+  height: 10rem;
+  width: 15rem;
+  display: grid;
+  position: absolute;
+  gap: 5rem;
+}
+main .main .container-secundario .section-img {
+  height: 10rem;
+  position: relative;
+  padding: 0.6rem;
+  gap: 1rem;
+}
+main .main .container-secundario .img {
+  height: 100%;
+  margin-bottom: 1rem;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .main .legenda-grid {
+  font-size: 12px;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background: transparent;
+}/*# sourceMappingURL=index.css.map */

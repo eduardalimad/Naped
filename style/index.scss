@@ -21,6 +21,10 @@
         display: flex;
         justify-content: space-around;
     }
+        .btnMenu:hover {
+            color: #7c1aa9;
+            
+        }
     .login{
         padding: .6rem;
         border-radius: 1rem;
@@ -42,9 +46,10 @@ main{
     }
    
     .container-pub{
-    display: inline-flex;
-    height: 20rem;
-    gap: 1rem;
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+        justify-content: space-around;
         
         
         .section-img-legendada{
@@ -85,7 +90,7 @@ main{
             position:relative ;
             padding: 0.6rem;
             gap: 1rem;
-            
+            margin-left: 2rem;
         }
         .legenda-grid{
             max-width: 35ch;
@@ -99,11 +104,13 @@ main{
 
         }
         .img{
-                height: 100%;
-                width: 100%;
-                opacity: 35%;
-                position: absolute;
-                object-fit: cover
+            height: 9rem;
+            width: 18rem;
+            margin-bottom: 1rem;
+            position: absolute;
+            -o-object-fit: cover;
+            object-fit: cover;
+            opacity: 70%;
         }
     }
 
@@ -111,7 +118,7 @@ main{
 }
 .main{
     display: flex;
-    width: 90%;
+
     padding: 4rem;
 
 .container{
@@ -122,7 +129,8 @@ main{
     height: 40rem;
     overflow-y: scroll;
     overflow-x: hidden;
-    
+/* Works on Firefox */
+
     .posts{
         width: 95%;
         display: flex;
@@ -157,18 +165,18 @@ main{
             height: 2rem;
         }
     }
-    
+
 }
 .container-secundario{
     height: 34rem;
     
-    
+    }
     .post-right{
         height: 10rem;
         width: 15rem;
         display: grid;
         position: absolute;
-        gap: 5rem;
+        gap: 3rem;
     }
     .section-img{
         height: 10rem;
@@ -180,7 +188,8 @@ main{
         height: 100%;
         margin-bottom: 1rem;
         position: absolute;
-        object-fit: cover
+        object-fit: cover;
+        opacity: 70%;
 
 }
         
@@ -195,5 +204,26 @@ main{
 
 
     }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(102, 102, 102) rgb(102, 102, 102);
+      }
+      
+      /* Works on Chrome, Edge, and Safari */
+      *::-webkit-scrollbar {
+        width: 12px;
+        
+      }
+      
+      *::-webkit-scrollbar-track {
+        background: rgb(102, 102, 102);
+      }
+      
+      *::-webkit-scrollbar-thumb {
+        background-color: #8257E6;
+        border-radius: 20px;
+        border: 1rem solid #8257E6;
+      }
 }
-}
+

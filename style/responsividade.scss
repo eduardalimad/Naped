@@ -1,0 +1,81 @@
+@media (min-width: 1450px) {
+    .container {
+        display: grid;
+        justify-content: start !important;
+    }
+
+}
+
+@media (max-width: 1090px) {
+    .container {
+        width: auto !important;
+        justify-content: start !important;
+
+    }
+
+    .post-right {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 780px) {
+    .container {
+        width: auto !important;
+        justify-content: start !important;
+    }
+
+    .posts {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap !important;
+        margin: 0 !important;
+        justify-content: center !important;
+    }
+
+    .section-img-legendada {
+        width: 100% !important;
+    }
+
+
+}
+
+@media (max-width: 620px) {
+
+    .container-firts,
+    .main {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        padding: 2rem 4rem 2rem 5rem !important;
+
+    }
+
+    .container-pub2 {
+        display: none !important;
+    }
+
+    .container-secundario {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+
+    .btnMenu {
+        display: none;
+    }
+
+    .container {
+        width: 80%;
+        height: auto !important;
+        padding: 0.6rem;
+        overflow: hidden !important;
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-items: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .post-right {
+        width: 90% !important;
+    }
+}

@@ -20,6 +20,8 @@
   list-style: none;
   display: flex;
   justify-content: space-around;
+  gap: 1rem;
+  align-items: center;
 }
 .menu-navBar .btnMenu:hover {
   color: #7c1aa9;
@@ -33,11 +35,10 @@
 
 main {
   width: 90%;
-  /* Works on Chrome, Edge, and Safari */
 }
 main .container-firts {
   padding: 2rem 4rem 2rem 5rem;
-  width: 100%;
+  width: 98%;
 }
 main .container-firts h2 {
   margin-bottom: 1.3rem;
@@ -141,6 +142,7 @@ main .main .container .posts .paragrafo {
 }
 main .main .container .posts .btn-post {
   background-color: #8257E6;
+  border: none;
   border-radius: 0.3rem;
   padding: 0.2rem;
   width: 8rem;

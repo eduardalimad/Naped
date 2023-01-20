@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat&display=swap');
 
-* {
+*{
     font-family: "Lexend Deca", sans-serif;
     margin: 0;
     padding: 0;
@@ -26,12 +26,15 @@
         gap: 1rem;
         align-items: center;
     }
-
+    
     .btnMenu:hover {
         color: #7c1aa9;
+        
 
     }
-
+    .btnMenu{
+        text-decoration: none;
+    }
     .login {
         padding: .6rem;
         border-radius: 1rem;
@@ -252,3 +255,4 @@ main {
         border: 1rem solid #8257E6;
     }
 }
+

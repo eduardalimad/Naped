@@ -1,0 +1,76 @@
+* {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #13131F;
+  color: #FEFBFB;
+}
+
+body {
+  gap: 2rem;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  display: grid;
+  grid-auto-rows: 20rem;
+  gap: 5rem;
+  place-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.post-Img {
+  width: 75%;
+  height: 85%;
+  position: relative;
+}
+.post-Img img {
+  width: 110%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 50%;
+  border-radius: 0.5rem;
+}
+.post-Img .card-post {
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  display: grid;
+  gap: 2rem;
+  place-items: center;
+  justify-items: start;
+  align-content: center;
+  grid-auto-rows: 30px;
+  grid-template-columns: 30%;
+}
+.post-Img .card-post h2,
+.post-Img .card-post p {
+  background-color: transparent;
+}
+
+.card-artigo {
+  width: 75%;
+  height: auto;
+  position: relative;
+  gap: 2rem;
+}
+.card-artigo .text {
+  padding: 0.5rem;
+  line-height: 25px;
+}
+
+footer {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #252353;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */

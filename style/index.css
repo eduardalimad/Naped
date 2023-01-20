@@ -26,6 +26,9 @@
 .menu-navBar .btnMenu:hover {
   color: #7c1aa9;
 }
+.menu-navBar .btnMenu {
+  text-decoration: none;
+}
 .menu-navBar .login {
   padding: 0.6rem;
   border-radius: 1rem;
